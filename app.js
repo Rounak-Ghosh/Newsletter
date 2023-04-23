@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 const request = require("request");
 
-var apiKey = "abe22403d765e8a1ad5219486d2ebd3ff-us13"; //Here your API key from Mailchimp
-var listID = "46f91d0f13"; //Here your list id
+var apiKey = "be22403d765e8a1ad5219486d2ebd3ff-us13";
+var listID = "46f91d0f13";
 
 app.use(express.urlencoded({extended: true}));
 
